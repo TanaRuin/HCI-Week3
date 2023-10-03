@@ -1,0 +1,105 @@
+hr {
+    height: 3px;
+    background-color: burlywood;
+    border-color: brown;
+}
+
+.occupation {
+    font-style:italic;
+}
+
+.name, .occupation, .ID {
+    text-align: center;
+    font-family: Geneva;
+}
+
+.desc, .contact, .edu, .hobby,.email, .PW, .IG,.school,.hobby {
+    font-family: Arial;
+}
+
+.table {
+    border-color:burlywood;
+}
+
+.pfp {
+    width: 200px; 
+    height: auto; 
+    transition: opacity 0.3s; 
+    position: center
+}
+
+.pfp:hover {
+    opacity: 0; 
+}
+
+.nickname {
+    display: none;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.pfp:hover + .nickname {
+    display: block;
+}
+
+a {
+    color: blue;
+  }
+  
+a:visited {
+    color: blue;
+}
+  
+a:hover {
+    color: brown;
+}
+  
+a:active {
+    color: brown;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: lightcyan;
+}
+
+.Identity {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+.pfp {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
