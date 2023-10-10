@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Portofolio Vammy Johannis Jiang</title>
 </head>
+
 <body>
-  <div class="Identity">
-  <main>
-    <h1 class="name">Vammy Johannis Jiang</h1> <!--Full Name-->
-    <p class="occupation">aspiring computer scientist major</p>
-    <h3 class="ID">2702368122 - L1CC - LEC</h3> <!--Student ID - Class-->
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Vammy Johannis Jiang</title>
+</head>
+
+<header>
+  <div class="col-4">
+    <h1>Portfolio</h1>
+    <div class="button-container">
+    <button data-target="desc" id="desc">Description</button>
+    <button data-target="socmed" id="socmed">Social Media</button>
+    <button data-target="edu" id="edu">Education</button>
+    <button data-target="skil" id="skil">Skills</button>
+    <button data-target="hby" id="hby">Hobbies</button>
   </div>
+  </header>
   <hr>
-  
+
   <!--Brief Desc / Male Female-->
   <section>
     <h2 class="desc">Description</h2>
@@ -32,7 +49,8 @@
   <!--Social Media and Links-->
   <section>
     <h2 class="contact">Contact Information</h2>
-    <table class="table" border="3px" cellpadding ="15">
+    <div class="col-sm-4">
+    <table class="table" border="3px" cellpadding ="7">
       <tr>
         <td class="email"> Email </td>
         <td> <p class="email">vammyjiang07@gmail.com</p></td>
@@ -46,13 +64,14 @@
         <td> <p class="IG"><a href="https://www.instagram.com/vammy_redo/"> vammy_redo </a></p></td>
       </tr>
     </table>
+    </div>
   </section>
   
   <hr>
   
 
   <!--Profile Pic and Hover-->
-  <section>
+  <section class="container">
     <img class="pfp" src="pfp.jpg" alt="Vammy">
     <p class="nickname">Vam, Vammy</p> 
   </section>
